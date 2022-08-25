@@ -1,0 +1,2 @@
+LSAN_OPTIONS=suppressions=MyLSan.supp
+ASAN_OPTIONS=suppressions=MyASan.supp
