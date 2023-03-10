@@ -1,0 +1,12 @@
+{
+  "name": "giftest",
+  "version-string": "0.1.0",
+  "dependencies": [
+    "openal-soft",
+    "sdl2",
+    "libvorbis",
+    "libogg",
+    "rapidjson"
+  ]
+}
+
