@@ -1,8 +1,8 @@
 #pragma once
 
-#include "al.h"
-#include "alc.h"
-#include "alext.h"
+#include <AL/al.h>
+#include <AL/alc.h>
+#include <AL/alext.h>
 
 #include <vorbis/vorbisfile.h>
 #include <vorbis/codec.h>
