@@ -199,11 +199,11 @@ target_link_libraries(${PROJECT_NAME} ${SDL2_LIBRARIES})
 # OPENAL
 #
 
-#find_package(OpenAL CONFIG REQUIRED)
-#target_link_libraries(${PROJECT_NAME} OpenAL::OpenAL)
-find_package(OpenAL REQUIRED)
-include_directories(${OPENAL_INCLUDE_DIR})
-target_link_libraries(${PROJECT_NAME} ${OPENAL_LIBRARY})
+find_package(OpenAL CONFIG REQUIRED)
+target_link_libraries(${PROJECT_NAME} OpenAL::OpenAL)
+#find_package(OpenAL REQUIRED)
+#include_directories(${OPENAL_INCLUDE_DIR})
+#target_link_libraries(${PROJECT_NAME} ${OPENAL_LIBRARY})
 
 #
 # RAPIDJSON
