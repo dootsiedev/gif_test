@@ -253,7 +253,7 @@ int main(int argc, char** argv)
 
     if(context_flags != 0)
     {
-        SDL_CHECK(SDL_GL_SetAttribute(SDL_GL_CONTEXT_FLAGS, context_flags);
+        SDL_CHECK(SDL_GL_SetAttribute(SDL_GL_CONTEXT_FLAGS, context_flags));
     }
 
 	SDL_CHECK(SDL_GL_SetAttribute(SDL_GL_DEPTH_SIZE, 16));
